@@ -1,29 +1,27 @@
-package RideBookingService.Rider;
+package RideBookingService.Driver;
 
 import RideBookingService.Enum.Rating;
 
-public class Rider {
+public class Driver {
     private String name;
+    private boolean available;
     private Rating rating;
 
-    public Rider(String name, Rating rating) {
+    public Driver(String name, Rating rating) {
         this.name = name;
         this.rating = rating;
+        available = false;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public boolean isAvailable() {
+        return available;
     }
 
     public Rating getRating() {
         return rating;
-    }
-
-    public void setRating(Rating rating) {
-        this.rating = rating;
     }
 }
