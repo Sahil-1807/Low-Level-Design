@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9036fdd-67a0-4219-b136-6daad974d0fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CartCouponLLD.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AmazonLockerSystemLLD/src/LockerManagementServiceLLD/EnumsAndUtils/LockerStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonLockerSystemLLD/src/LockerManagementServiceLLD/EnumsAndUtils/LockerStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AmazonLockerSystemLLD/src/LockerManagementServiceLLD/EnumsAndUtils/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonLockerSystemLLD/src/LockerManagementServiceLLD/EnumsAndUtils/OrderStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AmazonLockerSystemLLD/src/LockerManagementServiceLLD/Models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonLockerSystemLLD/src/LockerManagementServiceLLD/Models/Customer.java" afterDir="false" />
@@ -23,7 +17,7 @@
       <change beforePath="$PROJECT_DIR$/../AmazonLockerSystemLLD/src/LockerManagementServiceLLD/NotificationService/NotificationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonLockerSystemLLD/src/LockerManagementServiceLLD/NotificationService/NotificationStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AmazonLockerSystemLLD/src/LockerManagementServiceLLD/NotificationService/PushNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonLockerSystemLLD/src/LockerManagementServiceLLD/NotificationService/PushNotification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AmazonLockerSystemLLD/src/LockerManagementServiceLLD/NotificationService/SMSNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonLockerSystemLLD/src/LockerManagementServiceLLD/NotificationService/SMSNotification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +35,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2raA6WxOrdWpp7xUKfEHNW0vAsB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,7 +49,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Spring Boot Projects/Microservices/EventDrivenKafkaOrderService"
   }
 }]]></component>
   <component name="RunManager">
