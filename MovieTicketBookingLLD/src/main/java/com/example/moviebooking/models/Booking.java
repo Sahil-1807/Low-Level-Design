@@ -1,9 +1,12 @@
 package com.example.moviebooking.models;
 
+import com.example.moviebooking.exceptions.InvalidStateException;
+import lombok.Getter;
 import lombok.NonNull;
 
 import java.util.List;
 
+@Getter
 public class Booking {
     private final String id;
     private final Show show;
@@ -25,7 +28,7 @@ public class Booking {
 
     public void confirmBooking(){
         if(this.bookingStatus != BookingStatus.Created ){
-            throw new  InvalidStateException;
+            throw new  InvalidStateException();
         }
 
         this.bookingStatus = BookingStatus.Confirmed;
@@ -33,7 +36,7 @@ public class Booking {
 
     public void expireBooking(){
         if(this.bookingStatus != BookingStatus.Created){
-            throw new InvalidStateException;
+            throw new InvalidStateException();
         }
         this.bookingStatus = BookingStatus.Expired;
     }

@@ -1,11 +1,13 @@
 package com.example.moviebooking.models;
 
+import lombok.Getter;
 import lombok.NonNull;
 
 import java.sql.Array;
 import java.util.ArrayList;
 import java.util.List;
 
+@Getter
 public class Screen {
     private final String id;
     private final String name;
